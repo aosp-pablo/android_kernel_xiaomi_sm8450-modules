@@ -323,6 +323,7 @@ struct dsi_ctrl {
 	u32 pending_cmd_flags;
 	bool max_hs_timer_supported;
 	atomic64_t cmd_success_ts;
+	bool max_hs_timer_supported;
 };
 
 /**
